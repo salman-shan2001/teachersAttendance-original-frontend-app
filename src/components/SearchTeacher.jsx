@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const SearchTeacher = () => {
 
@@ -59,6 +60,7 @@ const SearchTeacher = () => {
             <div>
                 <div className="container">
                     <div className="row">
+                        <Navbar/>
 
                         <center>
                             <h1>
